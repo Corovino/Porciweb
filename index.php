@@ -123,8 +123,8 @@
                                                 <p class="lm-success"><i class="icon icon_check_alt2"></i> <strong>Los datos se guardaron correctamente.</strong></p>
                                                 <p class="lm-failed"><i class="icon icon_close_alt2"></i><strong> Algo esta fallando.</strong></p>
                                                 <!-- Input Fields -->
-                                                <input id="lm-email" class="form-control input-lg" type="text" placeholder="Email" name="lm-email" required>
-                                                <input id="lm-password" class="form-control input-lg" type="password" placeholder="Password" name="lm-password" required>
+                                                <input id="lm-email" class="form-control input-lg" type="text" placeholder="Correo" name="lm-email" required>
+                                                <input id="lm-password" class="form-control input-lg" type="password" placeholder="Contraseña" name="lm-password" required>
                                                 <!-- Login Button -->
                                                 <button class="btn btn-color">Ingresar</button>
                                             </form>
@@ -140,9 +140,9 @@
                                             <p class="sm-success"><i class="icon icon_check_alt2"></i> <strong>Se registro correctamente</strong></p>
                                             <p class="sm-failed"><i class="icon icon_close_alt2"></i><strong> Algo fallo registro no completo.</strong></p>
                                             <!-- Input Fields -->
-                                            <input id="sm-email" class="form-control input-lg" type="text" placeholder="Email" name="sm-email" required>
-                                            <input id="sm-password" class="form-control input-lg" type="password" placeholder="Password" name="sm-password">
-                                            <input id="sm-confirm" class="form-control input-lg" type="password" placeholder="Repeat Password" name="sm-confirm">
+                                            <input id="sm-email" class="form-control input-lg" type="text" placeholder="Correo" name="sm-email" required>
+                                            <input id="sm-password" class="form-control input-lg" type="password" placeholder="Contraseña" name="sm-password">
+                                            <input id="sm-confirm" class="form-control input-lg" type="password" placeholder="Confirmar contraseña" name="sm-confirm">
                                             <!-- Signup Button -->
                                             <button class="btn btn-color">Crea una cuenta</button>
                                         </form>
