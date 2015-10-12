@@ -1,5 +1,5 @@
 <?php
- 
+ session_start();
  
 
 ?>
@@ -9,7 +9,7 @@
 <head>
 	<title>Porciweb</title>
 	 <!-- FAVICON  -->
-    <link rel="icon" href="images/favicon/favicon.ico">
+    <!--link rel="icon" href="images/favicon/favicon.ico"-->
     
     <!-- =========================
        STYLESHEETS 
@@ -19,19 +19,19 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- FONT ICONS -->
-    <link rel="stylesheet" href="css/icons.min.css">
+    <!--link rel="stylesheet" href="css/icons.min.css"-->
      
     <!-- GOOGLE FONTS -->
-    <link href="http://fonts.googleapcss?family=Raleway:300,400,600,700%7COpen+Sans:300,400,600,700%7CHandlee" rel="stylesheet">
+    <!--link href="http://fonts.googleapcss?family=Raleway:300,400,600,700%7COpen+Sans:300,400,600,700%7CHandlee" rel="stylesheet">
     
     <!-- PLUGINS STYLESHEET -->
-    <link rel="stylesheet" href="css/plugins.min.css">
+    <!--link rel="stylesheet" href="css/plugins.min.css"-->
     
     <!-- CUSTOM STYLESHEET -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- RESPONSIVE FIXES -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <!--link rel="stylesheet" href="css/responsive.css"-->
 
     
 </head>
@@ -81,7 +81,7 @@
                                         <li><a href="#team" title="" class="scrollto">Equipo</a></li>
                                         <li><a href="#mobile-download" title="" class="scrollto">App</a></li>
                                         <!-- Login and Signup Modal on click -->
-                                        <li><a class="btn btn-nav" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Ingresar</a></li>
+                                        <li><a class="btn btn-nav ingresar_modal" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();">Ingresar</a></li>
                                         <li><a class="btn btn-nav btn-signup" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();">Registrarse</a></li> 
                                     </ul>
                                 </div><!-- /End Navbar-Collapse -->
@@ -120,13 +120,13 @@
                                         <div class="loginBox">
                                             <form id="login-modal" role="form">
                                                 <!-- Success/Alert Notification -->
-                                                <p class="lm-success"><i class="icon icon_check_alt2"></i> <strong>Los datos se guardaron correctamente.</strong></p>
-                                                <p class="lm-failed"><i class="icon icon_close_alt2"></i><strong> Algo esta fallando.</strong></p>
+                                                <p class="lm-success hide"><i class="icon icon_check_alt2"></i> <strong>Los datos se guardaron correctamente.</strong></p>
+                                                <p class="lm-failed hide"><i class="icon icon_close_alt2"></i><strong> Algo esta fallando.</strong></p>
                                                 <!-- Input Fields -->
-                                                <input id="lm-email" class="form-control input-lg" type="text" placeholder="Correo" name="lm-email" required>
-                                                <input id="lm-password" class="form-control input-lg" type="password" placeholder="Contraseña" name="lm-password" required>
+                                                <input id="lm-email" class="form-control input-lg" type="text" placeholder="Nombre" name="lm-email" required>
+                                                <input id="lm-password" class="form-control input-lg" type="text" placeholder="Correo" name="lm-password" required>
                                                 <!-- Login Button -->
-                                                <button class="btn btn-color">Ingresar</button>
+                                                <button class="btn btn-color ingresar">Ingresar</button>
                                             </form>
                                         </div><!-- /End Login Form -->
                                      </div>
@@ -185,7 +185,7 @@
     <script src="js/jquery.easing.1.3.min.js"></script>
     <script src="js/modernizr.custom.min.js"></script>
     <script src="js/plugins.min.js"></script>
-    <script src="js/twitter/tweetie.min.js"></script>
+    <!--script src="js/twitter/tweetie.min.js"></script>
     <!-- Custom Script -->
     <script src="js/index.js"></script>
 </body>

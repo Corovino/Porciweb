@@ -1,0 +1,15 @@
+.hide{
+	display: none;
+}
+
+footer {
+
+	width: 100%;
+	border:2px solid red;
+
+
+}
+
+footer p{
+	text-align: center;
+}

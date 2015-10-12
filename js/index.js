@@ -43,3 +43,46 @@ function openRegisterModal(){
     showRegisterForm();
     $('#loginModal').modal('show');
 }
+
+/* =================================
+   LOGIN-AJAX MODAL                     
+=================================== */
+
+$(document).ready(function(){
+
+$('.ingresar').click(function(){
+    
+    
+
+ var userEmail = $('#lm-email').val();
+ 
+ var userPass = $('#lm-password').val();
+ 
+
+ //var dataString = 'userEmail='+userEmail+'&userPass='+userPass;
+   $.ajax({
+        
+        type: 'POST',
+        url: 'consultas_porciweb.php',
+        data: 'userEmail='+userEmail+'&userPass='+userPass,
+        cache: false
+       }).done(function(resp){
+            console.log(resp)
+            window.location="porciweb_ingreso.php";
+       })
+   })
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
