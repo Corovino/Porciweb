@@ -169,6 +169,172 @@
                         </div><!-- /End Modal Content -->
                     </div><!-- /End Modal Dialog -->
                 </div><!-- /End Modal -->
+                <!-- =========================
+                                HEADER IMG 
+                  ============================== -->
+
+                    <div class="container vmiddle fast-reg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="hero-section">
+                                
+                                <!-- Welcome - Hero Message -->
+                                <h1 class="text-white">LA MEJOR FORMA DE  <br> ADMINISTRAR TU GRANJA</h1>
+                                <p class="text-white">Empieza a hora  y descubre como funciona.</p>
+                                
+                                <div class="col-sm-12">
+                                    <div class="fast-reg-box">
+                                        <!-- Fast Registration Form -->
+                                        <form id="fast-reg" role="form">
+                                            <!-- Notification -->
+                                            <p class="fast-success"><i class="icon icon_check_alt2"></i> <strong>Bienvenido a tus 30 días de prueba.</strong></p>
+                                            <p class="fast-failed"><i class="icon icon_close_alt2"></i><strong> Algo va mal, los datos no son correctos.</strong></p>  
+
+                                            <!-- Input fields -->
+                                            <div class="form-group">
+                                                <input type="email" name="fast-email" id="fast-email" class="form-control input-lg" placeholder="Ingresa tu correo" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="password" size="25" name="fast-password" id="fast-password" class="form-control input-lg" placeholder="Ingres tu contraseña" required>
+                                            </div>
+                                            <!-- Signup Button -->
+                                            <button class="btn btn-color">Toma 30 días de prueba </button>
+                                        </form>
+                                    </div><!-- /End Fast-Reg -->
+                                </div><!-- /End Col -->
+                            </div><!-- /End Intro-Section -->
+                        </div><!-- /End Col -->
+                    </div><!-- /End Row -->
+                </div><!-- /End Container Hero-Section -->
+
+
+            </div><!-- /End Background Overlay -->
+            </header><!-- End header -->
+
+             <!-- =================================
+             SECTION ABOUT - INTRO FEATURES
+        ====================================== -->
+        <section class="intro-features" id="about">
+            <div class="container">
+                <!-- Padding -->
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <!-- Section Header Title -->
+                        <div class="col-xs-12">
+                            <h2>Es hora de automatizar los procesos de tu granja</h2>
+                            <p class="large">Comprueba como en poco tiempo tu productividad aumenta  considerablemente.</p>
+                        </div>
+                    </div>
+                    <!-- Three Main Features with Icons -->
+                    <div class="row">
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-mobile"></i>
+                            </div>
+                            <h4>Facil manejo </h4>
+                            <p>Optio dolores expedita unde vel laudantium enim nisi eos distinctio, rem. Repellat repudiandae quos laborum magni.</p>
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-browser"></i>
+                            </div>
+                            <h4>Control donde quieras </h4>
+                            <p>Praesentium reprehenderit quae, sequi deserunt laboriosam velit necessitatibus nulla ea optio, quis nam pariatur.</p>  
+                        </div>
+                        <div class="col-sm-4 intro-content">
+                            <div class="icon-lg">
+                                <i class="icon icon-documents"></i>
+                            </div>
+                            <h4>App movil</h4>
+                            <p>Aperiam recusandae ipsa culpa, cupiditate magnam dolor molestiae, omnis, architecto possimus aperiam corrupti corporis.</p>
+                        </div>
+                    </div><!-- /End Row -->
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->
+        </section>
+        <!-- =============================
+             /END INTRO FEATURES
+        ============================== -->
+        <!-- ==================================================
+            CHARTS & SHOWCASE SECTION
+        ======================================================= -->
+        <section class="charts" id="charts">
+            <div class="container">
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Get out of the Building</h2>
+                            <p class="large">Lorem ipsum dolor sit amet, quando eleifend iracundia per ea. Te reque aeque dolor pri</p>
+                        </div>
+                    </div>
+
+                    <div class="row doughnut-box">
+                        <div class="col-md-5">
+                            <!-- Div Required for Correct Line Chart Animation -->
+                            <div class="start-line"></div>
+                            <!-- Chart Text Description -->
+                            <h4>Todo lo que necesitas para el buen manejo de tu granja.</h4>
+                            <p>Perferendis aliquid accusamus nostrum recusandae maxime dolor dolorum numquam pariatur quasi sit, in, culpa hic, fugiat dignissimos fuga necessitatibus tempore molestias ipsum corporis distinctio. Minima mollitia.</p>
+                            <p><a href="#canvas-bg" class="scrollto"><strong>Lorem ipsum dolor sit amet, quando›</strong></a></p>
+                        </div>
+                        <div class="col-md-7">
+                            <!-- Doughnut Charts  -->
+                            <div id="canvas-holder">
+                                <div class="chart-text">
+                                    100&#37;<span>Crafted with<br> Passion</span>
+                                </div>
+                                <canvas id="chart-area" width="400" height="400"></canvas>
+                            </div>
+                            <div id="canvas2-holder">
+                                <div class="chart2-text">
+                                    827<span>Lorem ipsum<br>Lorem ipsum</span>
+                                </div>
+                                <canvas id="chart2-area" width="300" height="300"></canvas>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+                        
+                    <div class="row chart-box">
+                        <div class="col-md-6 col-md-push-6 col-sm-12">
+                            <!-- Chart Text Description -->
+                            <h4>Porciweb <strong> dolor sit amet, quando</strong> Lorem ipsum dolor sit amet, quando</h4>
+                            <p>Exercitationem, hic commodi libero reprehenderit id iusto, consequatur unde pariatur recusandae dicta sequi voluptatum quae corrupti culpa quibusdam nihil error harum itaque praesentium quidem corporis cupiditate voluptatem. Error tempore aperiam nulla saepe corrupti!</p>
+                            <p><a href="#features" class="scrollto"><strong> Lorem ipsum dolor sit amet, quando›</strong></a></p>
+                        </div>
+                        <div class="col-md-6 col-md-pull-6 col-sm-12">
+                            <!-- Line Chart -->
+                            <div class="line-canvas">
+                                <div>
+                                    <canvas id="line-canvas" height="450" width="600"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+                    
+                    <div class="row showcase">
+                        <div class="col-md-4">
+                            <h4>Lorem ipsum dolor sit amet, quando</h4>
+                            <p>Praesentium voluptatem excepturi corporis labore architecto eos ea molestiae saepe facere at voluptate similique iusto porro pariatur, dolorum dolor magni sint eveniet iste. Eaque, aliquam, dignissimos.</p>
+                            <p><a href="#mobile-download" class="scrollto"><strong>Descarga la App movil ›</strong></a></p>
+                        </div>
+                        <div class="col-md-8">
+                            <!-- Devices Image -->
+                            <div class="img-box">
+                                <img src="assets/images/showcase.png" alt="" class="img-responsive">
+                                <a href="http://youtu.be/SZEflIVnhH8" data-type="youtube" class="venobox video-player"><i class="icon arrow_triangle-right_alt2 wow fadeIn" data-wow-duration="2s"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- /End Chart-Box -->
+
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->      
+        </section>
+        <!-- =============================
+             /END CHARTS SECTION 
+        ============================== -->
+        
+        
+       
 
 
 
