@@ -281,13 +281,13 @@
                             <!-- Doughnut Charts  -->
                             <div id="canvas-holder">
                                 <div class="chart-text">
-                                    100&#37;<span>Crafted with<br> Passion</span>
+                                    100&#37;<span>Lorem ipsum<br> </span>
                                 </div>
                                 <canvas id="chart-area" width="400" height="400"></canvas>
                             </div>
                             <div id="canvas2-holder">
                                 <div class="chart2-text">
-                                    827<span>Lorem ipsum<br>Lorem ipsum</span>
+                                    827<span>Lorem ipsum<br></span>
                                 </div>
                                 <canvas id="chart2-area" width="300" height="300"></canvas>
                             </div>
@@ -332,6 +332,91 @@
         <!-- =============================
              /END CHARTS SECTION 
         ============================== -->
+
+        <!-- ==================================================
+            FOOTER
+        ======================================================= -->
+        <footer class="footer dark-bg" id="footer">
+            <div class="container">
+                <div class="wrapper-lg">
+                    <div class="row">
+                        <!-- Footer Left Col -->
+                        <div class="col-md-5">
+                                <!-- Logo -->
+                                <a href="#top" class="scrollto" title="SmartMvp">
+                                    <span class="text-logo">SmartMvp</span>
+                                </a>
+                                <p class="footer-hero"><strong>600.000</strong>usuarios registrados desde nuestro lanzamiento.<br>
+                                Nosotros creamos un producto que te ayuda a tener mejores resultados.</p>
+                                <p class="footer-cta">Qué esperas para usarla?
+                                    <a href="#top" class="btn btn-color">No lo pienses mas  toma 30 dias de pruebas</a>
+                                </p> 
+                        </div>
+                        <!-- Footer Contact Col -->
+                        <div class="col-md-3">
+                            <h5 class="text-white">Contactanos</h5>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="icon icon_mail"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <a href="mailto:hi@themedept.com">contacto@porciweb.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="icon icon_pin"></i>
+                                </div>
+                                <div class="contact-content">
+                                    Calle 123 b bis a<br>
+                                    Bogotá - Colombia
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="icon icon_phone"></i>
+                                </div>
+                                <div class="contact-content">
+                                    1-234-567-89
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Footer Right Col: Twitter Feed -->
+                        <div class="col-md-4">
+                                <h5 class="text-white"> Tweets</h5>
+                                <div class="tweet"></div>
+                        </div>
+
+                        <!-- Footer Menu and Copy -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="footer-nav">
+                                    <li>
+                                        <a href="#">Nosotros</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Ayuda</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terminos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacidad</a>
+                                    </li>
+                                </ul>
+                                <p class="footer-copy">&copy; 2015 - Porciweb. Derechos reservados </p>
+                            </div>
+                        </div>
+                        
+                    </div><!-- End Row -->
+                </div><!-- /End Wrapper -->
+            </div><!-- /End Container -->
+        </footer>
+
+    </div><!-- /End Main Wrapper -->
         
         
        
@@ -347,6 +432,7 @@
          SCRIPTS 
     ============================== -->
     <script src="js/jquery1.11.0.min.js"></script>
+    <script src="js/plugins.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.1.3.min.js"></script>
     <script src="js/modernizr.custom.min.js"></script>
